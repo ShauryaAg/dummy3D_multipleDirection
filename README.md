@@ -11,7 +11,7 @@ Once the 2D coordinates are attained and depth map is created, we convert those 
 Since there might variations in different scenarios, the Z-coordinates we make are respective to a certain point on our body (the center of our chest).
 
 The depth map created using a pair of stereo images looks like this:
-![depth_map_image_bike](https://user-images.githubusercontent.com/31778302/69337940-1d025880-0c88-11ea-84da-960c43f90b9e.png)
+![depth_map_image_bike](https://user-images.githubusercontent.com/31778302/69341793-3d361580-0c90-11ea-8056-332db81f956c.png)
 
 Then using the 3D coordinates, the 3D model is animated by calculating the angles between each bone with every axis and rotating the respective bone accordingly.
 
